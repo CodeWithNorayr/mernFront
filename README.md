@@ -1,16 +1,26 @@
-# React + Vite
+# MERN LMS Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend of a Learning Management System (LMS)** built with **React** and **Vite**.  
+It connects to a Node.js/Express backend and allows educators to manage courses, chapters, and lectures.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+Check out the live version deployed on Render:  
+[https://mernfront-ijcd.onrender.com](https://mernfront-ijcd.onrender.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend:** React, Vite, CSS  
+- **Backend:** Node.js, Express (API integration)  
+- **Database:** MongoDB  
+- **Authentication:** JWT for educators and users
 
-## React Compiler
+## 📚 Features
+- Educators can **view, update, and delete courses**  
+- Manage **chapters and lectures** inside each course  
+- Responsive UI for **desktop and mobile devices**  
+- Connects securely to backend API  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚡ How to Run Locally
+1. Clone the repository:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/CodeWithNorayr/mernFront.git
